@@ -1,6 +1,6 @@
 <ul>
 <li *ngFor="let v of vettoreDrive">
-{{v.tipo}} | {{v.descrizione}}
+<button (click) = "onClick(v)">noleggia</button>{{v.tipo}} | {{v.descrizione}}
 </li>
 </ul>
 

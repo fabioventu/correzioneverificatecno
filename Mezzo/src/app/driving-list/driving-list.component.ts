@@ -24,4 +24,9 @@ export class DrivingListComponent implements OnInit {
     this.vettoreDrive = mezzo ;
   }
 
+  onClick(mezzo : Drive)
+  {
+    console.log(mezzo)
+  }
+
 }
